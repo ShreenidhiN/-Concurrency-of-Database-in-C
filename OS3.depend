@@ -1,0 +1,45 @@
+# depslib dependency file v1.0
+1585662759 source:c:\codeblocksprograms\os3\concurrent.c
+	<unistd.h>
+	<stdlib.h>
+	<stdio.h>
+	<pthread.h>
+	<semaphore.h>
+	"db_warehouse.h"
+	"concurrent.h"
+
+1585656556 c:\codeblocksprograms\os3\db_warehouse.h
+
+1585656522 c:\codeblocksprograms\os3\concurrent.h
+	"db_warehouse.h"
+
+1585664618 source:c:\codeblocksprograms\os3\concurrent_example.c
+	<stdio.h>
+	<pthread.h>
+	"concurrent.h"
+
+1585663712 source:c:\codeblocksprograms\os3\db_warehouse.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1585656745 source:c:\codeblocksprograms\os3\sequential.c
+	<stdlib.h>
+	<stdio.h>
+	"db_warehouse.h"
+	"sequential.h"
+
+1585656599 c:\codeblocksprograms\os3\sequential.h
+	"db_warehouse.h"
+
+1586159964 source:c:\codeblocksprograms\os3\sequential_example.c
+	<stdio.h>
+	<pthread.h>
+	"sequential.h"
+
+1585663945 source:c:\codeblocksprograms\os3\main.c
+	<stdlib.h>
+	<stdio.h>
+	<pthread.h>
+	"concurrent.h"
+
